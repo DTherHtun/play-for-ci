@@ -1,4 +1,4 @@
-name := """example-app"""
+name := """play-for-ci"""
 
 version := "1.0-SNAPSHOT"
 
@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(RpmPlugin)
+maintainer := "D Ther Htun <dther@opslab.space>"
+packageSummary := "My custom package"
+packageDescription := "Package"
