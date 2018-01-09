@@ -1,6 +1,6 @@
 name := """play-for-ci"""
 
-version := "1.3.SNAPSHOT"
+version := "1.4.SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -17,7 +17,7 @@ maintainer := "D Ther Htun <dther@opslab.space>"
 packageSummary := "My custom package"
 packageDescription := "Package"
 
-rpmRelease := "1"
+rpmRelease := "2"
 
 rpmVendor := "typesafe"
 
