@@ -1,6 +1,6 @@
 name := """play-for-ci"""
 
-version := "1.2.SNAPSHOT"
+version := "1.3.SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 
@@ -21,6 +21,6 @@ rpmRelease := "1"
 
 rpmVendor := "typesafe"
 
-rpmUrl := Some("http://github.com/paulp/sbt-extras")
+rpmUrl := Some("https://github.com/DTherHtun/play-for-ci")
 
 rpmLicense := Some("BSD")
